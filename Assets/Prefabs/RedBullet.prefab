@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 79986698356948209}
   - component: {fileID: 3260962808581149631}
   - component: {fileID: 6693734600924286320}
-  - component: {fileID: 1312808929304132627}
   - component: {fileID: 7357066438957682770}
+  - component: {fileID: 2466775731049970747}
   m_Layer: 6
   m_Name: RedBullet
   m_TagString: Untagged
@@ -114,7 +114,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1312808929304132627
+--- !u!114 &7357066438957682770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764444829792486406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58be5de1dad13d34c91a8880cd1e25c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _velocity: 15
+  _lifeTime: 15
+  _localTimeScale: 1
+--- !u!58 &2466775731049970747
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,18 +164,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7357066438957682770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3764444829792486406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58be5de1dad13d34c91a8880cd1e25c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _velocity: 15
-  _lifeTime: 15
-  _rigidbody2D: {fileID: 6693734600924286320}

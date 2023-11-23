@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3145458722639511480}
   - component: {fileID: 3423591154586334819}
   - component: {fileID: 4405645213953408985}
-  - component: {fileID: 6301480312939807958}
+  - component: {fileID: 9205778734167559163}
   m_Layer: 0
   m_Name: TimeFreezeZone
   m_TagString: Untagged
@@ -121,7 +121,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6301480312939807958
+--- !u!114 &9205778734167559163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

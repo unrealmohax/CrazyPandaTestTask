@@ -164,7 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _missilePrefab: {fileID: 3764444829792486406, guid: 784ce357febbd0b4c86b582d9fb6120d, type: 3}
   _missileSpawnPoint: {fileID: 1198377037978121846}
-  _rateOfFire: 2
+  _rateOfFire: 1
   _turretTransform: {fileID: 7717838801792076620}
   _offset: 0
   _minDegRotate: 0
